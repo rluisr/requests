@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestStream(t *testing.T) {

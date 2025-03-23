@@ -1,4 +1,4 @@
-module github.com/gospider007/requests
+module github.com/rluisr/requests
 
 go 1.24.0
 
@@ -43,6 +43,7 @@ require (
 	github.com/google/pprof v0.0.0-20250317173921-a4b03ec1a45e // indirect
 	github.com/gospider007/blog v0.0.0-20250302134054-8afc12c2a9a7 // indirect
 	github.com/gospider007/kinds v0.0.0-20250217075226-10f199f7215d // indirect
+	github.com/gospider007/requests v0.0.0-20250211080616-12d370dccaaf // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect

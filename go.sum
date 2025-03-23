@@ -123,6 +123,8 @@ github.com/gospider007/proxy v0.0.0-20250305031300-6b187bb8107e h1:oPi0kr7/STILm
 github.com/gospider007/proxy v0.0.0-20250305031300-6b187bb8107e/go.mod h1:QM/Nvb+gqOSNCLj/i1vFRG9Fu94dZlBrLrgNWzVQn9M=
 github.com/gospider007/re v0.0.0-20250217075352-bcb79f285d6c h1:8/Cf+c2680tkWJ+ueZ9RLLK5R5R8nhE8pNBUPHjkvkM=
 github.com/gospider007/re v0.0.0-20250217075352-bcb79f285d6c/go.mod h1:dd8aDIUG1vDPP5r+vHBtiUK0Zn6uk3SsWt1ZvmCCHLs=
+github.com/gospider007/requests v0.0.0-20250211080616-12d370dccaaf h1:iKISUwHRjX+f1ckzgunjeeRXnsDsOZIl1w6fdQET7pM=
+github.com/gospider007/requests v0.0.0-20250211080616-12d370dccaaf/go.mod h1:JCdxM2LuX5OEXPhgEWRndE0UIspL34xaMUoMSUExyNA=
 github.com/gospider007/tools v0.0.0-20250314001755-8fd6f4fc62e2 h1:rYxxxIEKkDSq/4ycta100U1jbY2pxcTgAtqBZGv1wl8=
 github.com/gospider007/tools v0.0.0-20250314001755-8fd6f4fc62e2/go.mod h1:+i3eo8TFRdB+xeSzj9jtWgInb9DCzKcGjpooaL751+U=
 github.com/gospider007/websocket v0.0.0-20250306064730-90385d6147ad h1:Q9qJ8G1ErWJamDKujBRKcUOv9FNKp/2HYmkOU2x6ygg=

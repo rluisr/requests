@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/gospider007/gson"
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestSendDataWithMap(t *testing.T) {

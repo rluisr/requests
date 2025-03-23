@@ -5,7 +5,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestHttp2(t *testing.T) {

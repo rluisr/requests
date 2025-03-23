@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestLogger(t *testing.T) {

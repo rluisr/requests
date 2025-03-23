@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestDefaultClient(t *testing.T) {

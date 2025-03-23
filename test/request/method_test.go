@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestMethodGet(t *testing.T) {

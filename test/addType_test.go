@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/gospider007/gtls"
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestAddType(t *testing.T) {

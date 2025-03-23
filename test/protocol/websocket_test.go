@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 	"github.com/gospider007/websocket"
 )
 

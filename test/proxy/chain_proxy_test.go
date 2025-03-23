@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/gospider007/proxy"
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestProxy2(t *testing.T) {

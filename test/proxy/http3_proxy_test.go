@@ -13,7 +13,7 @@ import (
 
 	"github.com/gospider007/gtls"
 	"github.com/gospider007/proxy"
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 	"github.com/quic-go/quic-go/http3"
 )
 

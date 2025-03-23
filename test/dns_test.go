@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestDns(t *testing.T) {

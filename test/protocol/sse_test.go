@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestSse(t *testing.T) {

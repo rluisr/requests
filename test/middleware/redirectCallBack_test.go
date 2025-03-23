@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gospider007/requests"
+	"github.com/rluisr/requests"
 )
 
 func TestRedirectCallBack(t *testing.T) {
