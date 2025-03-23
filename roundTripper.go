@@ -19,6 +19,12 @@ import (
 	uquic "github.com/refraction-networking/uquic"
 )
 
+// Internal RoundTripper interface
+type requestRoundTripper interface {
+	RoundTrip(resp *Response) error
+	closeConns()
+}
+
 type reqTask struct {
 	bodyCtx     context.Context
 	ctx         context.Context
@@ -62,6 +68,8 @@ type roundTripper struct {
 	connPools *connPools
 	dialer    *Dialer
 }
+
+var _ requestRoundTripper = (*roundTripper)(nil)
 
 var specClient = ja3.NewClient()
 

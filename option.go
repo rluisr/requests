@@ -8,6 +8,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"net/http"
 	"net/url"
 	"strings"
 	"time"
@@ -46,6 +47,7 @@ type ClientOption struct {
 	DialOption            DialOption
 	Headers               any                              //default headers
 	Jar                   Jar                              //custom cookies
+	Transport             http.RoundTripper                //custom transport (like otelhttp.NewTransport)
 	Logger                func(Log)                        //debuggable
 	OptionCallBack        func(ctx *Response) error        //option callback,if error is returnd, break request
 	ResultCallBack        func(ctx *Response) error        //result callback,if error is returnd,next errCallback

@@ -345,7 +345,18 @@ func (obj *Client) request(ctx *Response) (err error) {
 		return
 	}
 	if ctx.Body() != nil {
-		ctx.body = ctx.Body().(*wrapBody)
+		if wBody, ok := ctx.Body().(*wrapBody); ok {
+			ctx.body = wBody
+		} else {
+			ctx.response.Body = &wrapBody{
+				rawBody: ctx.response.Body,
+				conn: &connecotr{
+					forceCtx: ctx.ctx,
+					forceCnl: func(cause error) {},
+				},
+			}
+			ctx.body = ctx.response.Body.(*wrapBody)
+		}
 	}
 	if strings.Contains(ctx.response.Header.Get("Content-Type"), "text/event-stream") {
 		ctx.sse = newSSE(ctx)
